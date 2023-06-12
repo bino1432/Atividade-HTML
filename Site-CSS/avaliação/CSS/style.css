@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap');
+
+:root {
+    --azulCabecalho: #2f5681;
+    --azul: #326ca9;
+    --branco: #dedede;
+    --preto: #2c2a2a;
+
+    --FontePrimaria: 'Oswald', sans-serif;  
+    --FontSecundaria:  'Roboto Slab', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: var(--azulCabecalho);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalhoLogo {
+    width: 70px;
+}
+
+.botaoCabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    font-size: 22px;
+    font-family: var(--FontePrimaria);
+}
+
+.botaoCabecalhoHome {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.botaoCabecalhoSobre {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.corpoSite {
+    background-color: var(--azul);
+}
+
+.paragrafoPrincipal {
+    color: var(--preto);
+}
+
+.destaque {
+    color: var(--branco);
+}
+
+.principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.informacaoPrincipal {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloPrincipal {
+    font-family: var(--FontePrimaria);
+    font-size: 50px;
+}
+
+.paragrafoPrincipal {
+    font-family: var(--FontSecundaria);
+    font-size: 20px;
+}
+
+.imagemPrincipal {
+    width: 450px;
+    margin-top: 30px;
+}
+
+.botaoPrincipal {
+    text-decoration: none;
+    border: 2px solid var(--preto);    
+    background-color: var(--preto);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: var(--FontSecundaria);
+    font-size: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.serviços {
+    font-family: var(--FontePrimaria);
+}
+
+.paragrafoServico1 {
+    font-family: var(--FontSecundaria);
+    color: var(--branco);
+}
+
+.paragrafoServico2 {
+    font-family: var(--FontSecundaria);
+    color: var(--branco);
+}
+
+.paragrafoServico3 {
+    font-family: var(--FontSecundaria);
+    color: var(--branco);
+}
+
+.tituloServico {
+    display: flex;
+    justify-content: center;
+}
+
+.todosOSServicos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloServico {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.Primeiroservico {
+    border: 2px solid var(--preto);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.Segundoservico {
+    border: 2px solid var(--preto);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.Terceiroservico {
+    border: 2px solid var(--preto);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.imagemprimeiroservico {
+    width: 90px;
+}
+
+.rodape {
+    background-color: var(--preto);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.meiosDeContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.tituloemail {
+    color: var(--branco);
+    margin-top: 10px;
+    font-family: var(--FontSecundaria);
+}
+.email {
+    color: var(--branco);
+    margin-top: 10px;
+    font-family: var(--FontSecundaria);
+}
+.telefone {
+    color: var(--branco);
+    margin-top: 10px;
+    font-family: var(--FontSecundaria);
+}
+.titulotelefone {
+    color: var(--branco);
+    margin-top: 10px;
+    font-family: var(--FontSecundaria);
+}
+.feito {
+    color: var(--branco);
+    font-family: var(--FontePrimaria);
+}
+.creditos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.titulofooter {
+    display: flex;
+    justify-content: center;
+}
+.titulofooter1 {
+    color: var(--branco);
+    font-family: var(--FontePrimaria);
+    font-size: 20px;
+}
+.imagenSobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imgSobre {
+    width: 650px;
+}
+.tituloSobre {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.tiSobre {
+    font-family: var(--FontePrimaria);
+    font-family: 30px;
+}
+.textoSobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.paragrafoSobre {
+    color: var(--branco);
+    font-size: 20px;
+}
+.primeiroparagrafo {
+    display: flex;
+    justify-content: center;
+}
+.segundoparagrafo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.terceiroparagrafo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.textoSobre {
+    font-family: var(--FontSecundaria);
+    margin-top: 10px;
+}
+@media (max-width:768px) {
+    .principal { 
+        flex-direction: column-reverse;
+    }
+    .todosOSServicos {
+        display: flex;
+        flex-direction: column;
+    }
+    .botaoCabecalho {
+        width: 25%;
+    }
+}

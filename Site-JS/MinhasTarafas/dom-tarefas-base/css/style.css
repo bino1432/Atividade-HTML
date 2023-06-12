@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.corpo {
+    background-color: whitesmoke;
+}
+#botao-adicionar {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#lista-tarefas {
+    margin-top: 20px
+}
+    .tarefa {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(9, 202, 51);
+    transition: .5s ease;
+    text-shadow: 3px 2px 4px rgb(61, 60, 60);  
+}
+#titulo:hover {
+    transform: scale(1.1);
+}
+#botao-adicionar {
+    background-color: rgb(9, 202, 51);
+    color: black;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .5s ease;
+    border: solid black;
+}
+#botao-adicionar:hover {
+    transform: scale(1.1);  
+}
+#campo-tarefa {
+    padding-right: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 16px;
+    border: black solid;
+}
+.section {
+    display: flex;
+    justify-content: center;
+}
+.concluida {
+    text-decoration: line-through;
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+}
+li {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+.BotaoExcluir {
+    background-color: rgb(9, 202, 51);
+    color: black;
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .5s ease;
+    border: solid black;
+    margin-left: 500px;
+}
+.BotaoExcluir:hover {
+    transform: scale(1.1);
+}

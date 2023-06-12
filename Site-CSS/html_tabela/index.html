@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>tabela</title>
+</head>
+<body style="background-color: rgb(240, 144, 144)">
+    <table>
+        <img src="imagens/Bundesliga_logo_(2017).png" alt="budesiga">
+        <h1>Tabela Bundesliga 2380</h1>
+        <tr>
+            <th>times</th>
+            <th>pontos</th>
+            <th>vitorias</th>
+            <th>derrotas</th>
+        </tr>
+        <tr>
+            <td>Palmeiras</td>
+            <td>80</td>
+            <td>40</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Flamengo</td>
+            <td>68</td>
+            <td>3</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>Curintias</td>
+            <td>62</td>
+            <td>38</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>grêmio</td>
+            <td>58</td>
+            <td>25</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>internacional</td>
+            <td>53</td>
+            <td>32</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>curitiba</td>
+            <td>49</td>
+            <td>23</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>arsenal</td>
+            <td>42</td>
+            <td>35</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>man city</td>
+            <td>37</td>
+            <td>24</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>chelsea</td>
+            <td>33</td>
+            <td>25</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>fluminese</td>
+            <td>28</td>
+            <td>12</td>
+            <td>32</td>
+        </tr>
+    </table>
+    <form>
+        <label for="fname">primeiro nome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"> sobrenome:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="idade"> idade:</label><br>
+        <input type="text" id="idade" name="idade"><br>
+        <label for="cartao"> numero do cartao:</label><br>
+        <input type="text" id="cartao" name="cartao"><br>
+      </form>
+      <p>você é palmeirense?:</p>
+    <center><input type="checkbox" /></center>
+    <center><button>Enviar</button></center>
+    <h2>como fazer uma lista</h2>
+    <ul>
+        <li>vai no vc Code</li>
+        <li>escreva "ul"</li>
+        <li>e escreva a sua lista</li>
+    </ul>
+    <h2>como fazer uma lista ordenada</h2>
+    <ol>
+        <li>vai no vc Code</li>
+        <li>escreva "ol"</li>
+        <li>e escreva a sua lista</li>
+    </ol>
+    <h1>atividade html</h1>
+    <form action="obigado.html">
+        <label for="nome">Nome(obirgatorio 2 caracteres):</label><br>
+        <input type="text" id="nome" required="" name="nome"><br>
+       
+        <label for="email">Email(Obrigatório):</label><br>
+        <input type="email" id="email" required="" name="email"><br>
+       
+        <label for="url">URL(opcional):</label><br>
+        <input type="url" id="url" name="url"><br>
+        
+        <label for="cidade">cidade(opcional):</label><br>
+        <input type="text" id="cidade" name="cidade"><br>
+       
+        <label for="estado">estado(opcional):</label><br>
+        <select>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amaoá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="DF">Distrito Federal</option>
+        </select><br>
+        <label for="msg">adicione uma mensagem(obirgatorio):</label><br>
+        <textarea required=""></textarea><br>
+        <button>Enviar</button>
+      </form>
+      <form action="obigado.html">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" required="" name="nome"><br>
+        
+        <label for="sobre">Sobrenome:</label><br>
+        <input type="text" id="sobre" name="sobre"><br>
+        
+        <label for="usuario">nome de usuario:</label><br>
+        <input type="text" id="usuario" required="" name="usuario"><br>
+        
+        <label for="senha">senha:</label><br>
+        <input type="password" id="senha" type="password" required="" name="senha"><br>
+        
+        <label for="comf">confirmar senha:</label><br>
+        <input type="password" id="comf" required="" name="comf"><br>
+       
+        <label for="estado">estado(opcional):</label><br>
+        <input type="text" id="comf" name="comf"><br>
+        
+        <label for="email">email:</label><br>
+        <input type="email" id="email" required="" name="email"><br>
+        <p>concorde com a nossa politica:</p>
+        <input type="checkbox" /> 
+
+        <label>topicos (selecione pelomenos 2):</label><br>
+        <input type="checkbox" name="nome" value="palmeirense?"><br>
+        <label>palmeirense?</label><type="checkbox" name="nome" value="palmeirense?"><br>
+        <input type="checkbox" name="nome" value="joga roblox?"><br>
+        <label>joga roblox?</label> <type="checkbox" name="nome" value="joga roblox?"><br>
+        <input type="checkbox" name="nome" value="joga roblox?"><br>
+        <label>minecraft?</label><type="checkbox" name="nome" value="minecraft?"><br>
+        <input type="checkbox" name="nome" value="minecraft?"><br>
+        <label>fornait?</label><type="checkbox" name="nome" value="fornait?"><br>
+        <input type="checkbox" name="nome" value="palmeirense?"><br>
+        <label>aaaa?</label><type="checkbox" name="nome" value="aaaa?"><br>
+        <button>enviar</button>
+    </form>
+</body>
+</html>

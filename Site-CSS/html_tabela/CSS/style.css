@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    color: rgb(32, 32, 32);
+    border-color:rgb(32, 32, 32);
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    color:rgb(32, 32, 32);
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    width: auto;
+    height: auto;
+    text-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  ul, ol {
+    color: rgb(32, 32, 32);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form, p, input{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    color: rgb(32, 32, 32);
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  lable {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
