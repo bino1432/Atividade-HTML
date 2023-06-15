@@ -47,6 +47,7 @@ corParagrafo.addEventListener('click', function(){
     let rgb2 = Math.floor(Math.random()*255)
     let rgb3 = Math.floor(Math.random()*255)
     paragrafo.style.color = `rgb( ${rgb1}, ${rgb2}, ${rgb3})`;
+    mostrarCorParagrafo.innerText = "Paragrafo: RGB (" + rgb1 + ", " + rgb2 + ", " + rgb1 + ")";
 });
 
 fonteTitulo.addEventListener('click', function() {
@@ -77,6 +78,7 @@ tudo.addEventListener('click', function() {
     let rgb2Paragraph = Math.floor(Math.random()*255)
     let rgb3Paragraph = Math.floor(Math.random()*255)
     paragrafo.style.color = `rgb( ${rgb1Paragraph}, ${rgb2Paragraph}, ${rgb3Paragraph})`;
+    mostrarCorParagrafo.innerText = "Paragrafo: RGB (" + rgb1Paragraph + ", " + rgb2Paragraph + ", " + rgb2Paragraph + ")";
 
     let randomTitle = Math.floor(Math.random()*15);
     titulo.style.fontFamily = font[randomTitle];
