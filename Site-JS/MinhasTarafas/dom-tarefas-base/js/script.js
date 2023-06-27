@@ -84,6 +84,7 @@ function adicionarTarefa(tarefaNome) {
         // Deleta a tarefa da lista
         listaTarefa.removeChild(novaTarefa);
 
+        localStorage.removeItem();
         // Aleta que removeu
         // alert('Tarefa Removida');
     });
