@@ -72,6 +72,8 @@ function adicionarTarefa(tarefaNome) {
 
     botaoExcluir.className = "BotaoExcluir";
 
+    novaTarefa.className = "lista";
+
     // Definir o texto do botão excluir
     botaoExcluir.innerText = "Remover";
 
@@ -81,10 +83,18 @@ function adicionarTarefa(tarefaNome) {
     // Adicionar um ouvinte ao botão excluir
     botaoExcluir.addEventListener('click', function () {
 
+        // Excluir do LocalStorage
+        for(let cont = 0; cont < document.getElementsByClassName("lista").length; cont++){
+            if (novaTarefa == document.getElementsByClassName("lista")[cont]){
+                itensSalvos.splice(cont, 1);
+            }   
+        }
+
         // Deleta a tarefa da lista
         listaTarefa.removeChild(novaTarefa);
 
-        localStorage.removeItem();
+        // Retorna o valor para o LocalStorage
+        localStorage.setItem("itens", JSON.stringify(itensSalvos));
         // Aleta que removeu
         // alert('Tarefa Removida');
     });
