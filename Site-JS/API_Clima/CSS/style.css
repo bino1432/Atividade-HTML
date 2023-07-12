@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+#section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.corpo {
+    background-color: rgb(38, 157, 255);
+}
+.txt {
+    font-family: 'Poppins', sans-serif;
+}
+.titulo {
+    font-family: 'Poppins', sans-serif;
+}
+#cidade {
+    border-radius: 16px;
+    padding: 10px;
+}
