@@ -1,16 +1,14 @@
 function media(a){
     
     let soma = 0
-    let tamanho = 0
 
-    for(let cont = 0; cont <= a.lenght; cont++){
+    for(let cont = 0; cont < a.length; cont++){
         soma = soma + a[cont]; 
-        tamanho++;
     }
     
-    let media = soma / tamanho
+    let mediaArray = soma / a.length
 
-    return media;
+    return mediaArray
 }
 
 module.exports.media = media;
