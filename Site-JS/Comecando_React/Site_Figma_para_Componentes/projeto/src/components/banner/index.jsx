@@ -7,7 +7,7 @@ function Banner() {
                 <p className='text_section'>New Arrival</p>
                 <h1 className='title_section'>Discouver Our New Collection</h1>
                 <p className='text_section'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                <a className='btn_section'>Buy Now</a>
+                <a href='#' className='btn_section'>Buy Now</a>
             </div>
         </section>
     )
