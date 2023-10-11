@@ -8,11 +8,11 @@
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 30%;
+    max-width: 40%;
     background-color: #FFF3E3;
     padding-bottom: 30px;
     padding-top: 10px;
-    margin-left: 900px;
+    margin-left: 700px;
 }
 
 .btn_section {
@@ -23,7 +23,8 @@
     padding-bottom: 20px;
     font-family:'Poppins', sans-serif;
     width: 50%;
-    margin-left: 110px;
+    margin-left: 120px;
+    justify-content: center;
     text-decoration: none;
 }
 
