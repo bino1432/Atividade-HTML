@@ -3,6 +3,7 @@ import Banner from './components/banner';
 import Comodos from './components/comodos';
 import Produtos1 from './components/produtos1';
 import Produtos2 from './components/produtos2';
+import Inspiration from './components/inspiration';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Comodos />
       <Produtos1 />
       <Produtos2 />
+      <Inspiration />
     </div>
   );
 }
