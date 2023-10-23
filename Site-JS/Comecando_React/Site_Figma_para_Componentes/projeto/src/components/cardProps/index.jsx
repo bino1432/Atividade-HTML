@@ -1,8 +1,8 @@
 import './card.css'
 
-function cardProps(props) {
+function CardProps(props) {
     return (
-        <div>
+        <div className={props.className}>
             <img src={props.imagem} alt={props.alt}/>
             <h3>{props.titulo}</h3>
             <p>{props.descricao}</p>
@@ -11,4 +11,4 @@ function cardProps(props) {
     )
 }
 
-export default cardProps;
+export default CardProps;

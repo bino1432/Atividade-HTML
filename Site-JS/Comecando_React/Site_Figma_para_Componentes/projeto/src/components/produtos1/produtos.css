@@ -1,0 +1,9 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartao {
+    border: solid white ;
+    background-color: #F4F5F7;
+}
