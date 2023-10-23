@@ -12,7 +12,7 @@ function Produtos2(props) {
                 <CardProps className='cartao' titulo="Potty" alt="img4" descricao="Minimalist flower pot" preco="Rp 500.000" imagem="./images/imagesForSection/image8.png" />
             </div>
             <div className='marginTop'>
-            <a href='#' className='btnProducts2'>Show More</a>
+            <a href='youtube.com' className='btnProducts2'>Show More</a>
             </div>
         </div>
     )
