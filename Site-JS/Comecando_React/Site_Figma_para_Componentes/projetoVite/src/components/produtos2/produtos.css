@@ -1,0 +1,27 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartao {
+    border: solid white ;
+    background-color: #F4F5F7;
+}
+
+.sectionProducts2 {
+    margin-top: 50px;
+}
+
+.btnProducts2 {
+    border: solid #B88E2F;
+    color: #B88E2F;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.marginTop {
+    margin-top: 50px;
+}
