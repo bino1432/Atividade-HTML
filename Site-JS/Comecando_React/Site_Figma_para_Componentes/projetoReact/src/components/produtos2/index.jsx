@@ -1,4 +1,4 @@
-import CardProps from '../CardProps';
+import CardProps from '../cardProps';
 import './produtos.css'
 
 function Produtos2(props) {
