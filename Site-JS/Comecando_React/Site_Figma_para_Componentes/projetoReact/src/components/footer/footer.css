@@ -40,3 +40,18 @@
     font-family:'Poppins', sans-serif;
     color: #9F9F9F;
 }
+
+.btnFooter {
+    padding: 10px ;
+}
+
+.lastP {
+    display: flex;
+    padding-left: 140px;
+}
+
+.btnFooterNewsLetter {
+    text-decoration: underline;
+    font-family:'Poppins', sans-serif;
+    color: black;
+}

@@ -26,13 +26,13 @@ function footer() {
                     <p className='allFooterP'>Newsletter</p>
                     <div>
                         <input classname='inputFooter' type='text' placeholder='Enter your email adress'></input>
-                        <a className='btnFooter' href="youtube.com">Subcribe</a>
+                        <a className='btnFooterNewsLetter' href="youtube.com">Subcribe</a>
                     </div>
                 </div>
             </div>
             <div>
                 <img src='./images/line.png' />
-                <p>2023 furino. All rights reverved</p>
+                <p className='lastP'>2023 furino. All rights reverved</p>
             </div>
         </div>
     )
