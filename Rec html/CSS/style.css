@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --corPrimaria:#2A0134;
+    --corSecundaria:#ADDFFF;
+    --corTerciaria:#f1f1f1;
+    --preto:black;
+
+    --Fonte:"Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--corPrimaria);
+    color: var(--corTerciaria);
+    font-family: var(--Fonte);
+    padding: 25px;
+}
+
+.btn_header{
+    text-decoration: none;
+    color: var(--preto);
+    font-family: var(--Fonte);
+    border: solid var(--corTerciaria);
+    border-radius: 15px;
+    background-color: var(--corSecundaria);
+    padding: 10px;
+    transition: .5s ease;
+}
+
+.btn_header:hover{
+    transform: scale(1.1);
+    border-color: var(--corSecundaria);
+    color: var(--corTerciaria);
+    background-color: var(--corPrimaria);
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--corTerciaria);
+    font-family: var(--Fonte);
+    border: solid var(--preto);
+    border-radius: 15px;
+    background-color: var(--corPrimaria);
+    transition: .5s ease;
+    padding: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: var(--corSecundaria);
+    color: var(--preto);
+}
+
+.btn_li {
+    text-decoration: none;
+    font-family: var(--Fonte);
+    transition: .5s ease;
+    
+}
+
+.barra_lateral_lista {
+    list-style-type: none;
+}
+
+.btn_li:hover{
+    color: var(--corTerciaria);
+    border:solid var(--corTerciaria);
+    background-color: var(--corPrimaria);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.modo_claro {
+    background-color: var(--corSecundaria);
+    font-family: var(--Fonte);
+    color: var(--preto);
+}
+
+.modo_escuro {
+    background-color: var(--corPrimaria);
+    font-family: var(--Fonte);
+    color: var(--corTerciaria);
+}
+
+.img {
+    width: 60%;
+}
+
+.all_section {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.section_um {
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 50px;
+} 
+
+.section_dois {
+    display: flex;
+    justify-content: space-between ;
+    margin-top: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.barra_lateral {
+    background-color: var(--corTerciaria);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer {
+    background-color: var(--corPrimaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.footer_paragrafo {
+    color: var(--corTerciaria);
+}
+
+.secao_formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 10px;
+}
+
+.footer_txt {
+    color: var(--corTerciaria);
+    font-family: var(--Fonte);
+}
+
+.input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bloco_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
